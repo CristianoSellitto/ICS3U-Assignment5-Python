@@ -13,7 +13,7 @@ def main():
     number_of_zeros = 0
     try:
         while True:
-            chosen_text = input("Enter a number from 0 to 9 (input 'stop' to end): ")
+            chosen_text = input("Enter a number (input 'stop' to end): ")
             if chosen_text == "stop":
                 final_text = "\nYou entered "
                 if number_of_positives == 1:
